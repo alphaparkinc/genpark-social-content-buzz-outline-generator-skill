@@ -1,0 +1,23 @@
+{
+  "name": "genpark-social-content-buzz-outline-generator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Compile outline drafts from social buzz trend keywords.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "social",
+    "buzz"
+  ],
+  "inputs": {
+    "keyword": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "outline": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
